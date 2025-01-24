@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <script src="login-register.js" defer></script>
+    <title>logowanie</title>
+  </head>
+  <body>
+    <div class="popups">
+      <button id="close_popups">X</button>
+      <div class="login_popup">
+        <h1>Zaloguj się!</h1>
+        <img
+          src="images/account_circle_24dp_1E90E1_FILL0_wght400_GRAD0_opsz24.png"
+          alt="user_icon"
+        />
+        <form action="#">
+            <div class="input_container"> <input type="text" class="login_inp" placeholder="imienazwiskoklasa" /></div>
+          
+          <div class="input_container"> </div><input type="password"/>
+          <button class="login_submit">Zaloguj do quizu</button>
+      </div>
+      <div class="register_popup"></div>
+    </div>
+    <header>
+      <div class="clock">
+        <span id="hour"></span>
+        <span>:</span>
+        <span id="min"></span>
+        <span>:</span>
+        <span id="sec"></span>
+      </div>
+    </header>
+    <main class="login_main">
+      <div class="login_content">
+        <button class="login_btn">
+          <span class="bar one"></span>
+          <span class="bar two"></span>
+          <span class="bar three"></span>
+          <span class="bar four"></span>
+          <span class="bar five"></span>
+          Zaloguj Się!
+        </button>
+        <button class="register_btn">
+          <span class="bar one"></span>
+          <span class="bar two"></span>
+          <span class="bar three"></span>
+          <span class="bar four"></span>
+          <span class="bar five"></span>
+          Zarejestruj Się!
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
