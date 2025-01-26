@@ -20,6 +20,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   background: var(--main-color);
+  overflow-y: hidden;
 }
 /* header styling  */
 header {
@@ -95,33 +96,19 @@ header .menu ul li:hover {
   border-bottom: 1px solid var(--main-color);
 }
 .user_panel {
-  display: flex;
-  justify-content: space-around;
-  margin-right: 20px;
-}
-
-.user_panel img {
-  display: none;
-}
-header .user_panel button {
-  cursor: pointer;
   background: var(--color-text);
-  color: var(--main-color);
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  border-radius: 10px 0 10px 0;
-  margin: 10px;
-  position: relative;
-  font-weight: bold;
+  width: 15vw;
+  height: 8vh;
+  margin: 35px;
+  border-radius: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-header .user_panel button:hover {
-  font-weight: bolder;
-  transition: 0.3s ease-in-out;
-  background: var(--main-color);
-  color: var(--color-text);
-  border: 2px solid var(--color-text);
+.user_panel_info {
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid var(--main-color);
 }
 
 /* main section styling */
